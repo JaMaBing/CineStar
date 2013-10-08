@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+		android:title="Settings"
+		android:key="phonestate_settings"
+		>
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title=" ">
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="About">
+	</PreferenceCategory>
+		<PreferenceCategory
+		android:title="Cinestar Wildau App">
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="Frank Sonnabend">
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="0.01337">
+	</PreferenceCategory>
+	
+</PreferenceScreen>

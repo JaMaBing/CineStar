@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	android:background="#A9E699">
+	tools:context=".CineStar">
+	<ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#A9E699">
+		<TableLayout
+		    android:id="@+id/TableAll"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:stretchColumns="1"
+			android:layout_alignParentTop="true"
+			android:layout_marginTop="10dp"
+			>
+			<TableRow
+			    android:layout_margin="1dp"
+			    android:background="#99D689">
+				<TextView
+					android:layout_column="0"
+					android:text="Programm"
+					android:padding="2dip" />
+				<TextView
+					android:id="@+id/Health"
+					android:text="Times"
+					android:gravity="right"
+					android:padding="2dip" />
+			</TableRow>
+<!--			<TableRow>
+				<Spinner
+					android:id="@+id/SPFilms"
+					android:gravity="right"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:drawSelectorOnTop="false"
+					android:text="Large Text"/>
+			</TableRow>
+-->
+		</TableLayout>
+	</ScrollView>
+</RelativeLayout>
